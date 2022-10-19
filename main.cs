@@ -16,6 +16,15 @@ class Program {
     Console.WriteLine(" ");
 
     Console.Write("Enter the height (cm): ");
-    heightOfTriangle = Convert.ToInt32(Console.ReadLine())
+    heightOfTriangle = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Enter the base (cm): ");
+    baseOfTriangle = Convert.ToInt32(Console.ReadLine());
+
+    area = (heightOfTriangle * baseOfTriangle) / 2;
+
+    Console.WriteLine(" ");
+    Console.WriteLine("The area is: " + area + "cm². ");
+
+    Console.WriteLine("\nDone.");
   }
 }
